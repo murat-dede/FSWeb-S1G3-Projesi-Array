@@ -38,10 +38,11 @@ Aşağıdakileri yapmak için aşağıdaki kopyalama işlevini kullanın:
    1. parametre olarak bir dizi alın - işlev çağrıldığında orijinalTatlar'i argüman olarak ileteceksiniz.
    2. Alınan dizinin bir kopyasını döndür
 */
+console.log(orijinalTatlar);
 
-
-function kopyala(/*kod buraya*/){
-  /*kod buraya*/
+function kopyala(orijinalTatlar);
+{
+  return(orijinalTatlar);
 }
 
 
@@ -56,8 +57,12 @@ Bir dizinin tam olarak 25 çeşit olduğunu onaylayın. İşleviniz şunları ka
 */
 
 
-function dizi25Cesitmi(/*kod buraya*/){
-  /*kod buraya*/
+function dizi25Cesitmi(orijinalTatlar){
+  return(orijinalTatlar.length=x)
+}
+if (x=25);
+console.log('true');
+{else console.log('false');
 }
 
 
@@ -74,8 +79,8 @@ Aşağıdakileri yapmak için cesitEkle işlevini kullanın:
 */
 
 
-function cesitEkle(/*kod buraya*/){
-  /*kod buraya*/
+function cesitEkle(orijinalTatlar,,"Kakule"){
+  return(orijinalTatlar.push('Kakule'));
 }
 
 
@@ -92,8 +97,8 @@ Aşağıdakileri yapmak için sonCesitiKaldir işlevini kullanın:
 */
 
 
-function sonCesitiKaldir(/*kod buraya*/){
-  /*kod buraya*/
+function sonCesitiKaldir(orijinalTatlar){
+  return(orijinalTatlar.pop());
 }
 
 
@@ -108,8 +113,8 @@ Aşağıdakileri yapmak için aşağıdaki indekstekiCesitiGetir işlevini kulla
    Örneğin: indekstekiCesitiGetir(orijinalTatlar, 2) çalıştırılmasıyla, Kakule'in başarıyla eklendiği varsayarsak sonuç "Ceviz" olucaktır.
 */
 
-function indekstekiCesitiGetir(/*kod buraya*/){
-  /*kod buraya*/
+function indekstekiCesitiGetir(orijinalTatlar, 2){
+  return(orijinalTatlar[2]);
 }
 
 
@@ -128,8 +133,8 @@ Aşağıdakileri yapmak için ismeGoreCesitCikar işlevini kullanın:
   İPUCU: Bunun için .splice() kullanabilirsiniz.
 */
 
-function ismeGoreCesitCikar(/*kod buraya*/){
-  /*kod buraya*/
+function ismeGoreCesitCikar(orijinalTatlar, "Tarçın"){
+  return(orijinalTatlar.splice("Tarçın"))
 }
 
 
@@ -154,8 +159,8 @@ Aşağıdakileri yapmak için ismeGoreFiltrele işlevini kullanın:
 */
 
 
-function ismeGoreFiltrele(/*kod buraya*/){
-  /*kod buraya*/
+function ismeGoreFiltrele(orijinalTatlar, "Çikolata"){
+  return(orijinalTatlar.includes("Çikolata"));
 }
 
 
